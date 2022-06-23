@@ -1,0 +1,8 @@
+<!--pages/detail/detail.wxml-->
+<view wx:if="{{imgUrl}}">
+    <image src="{{imgUrl}}" mode="aspectFit"></image>
+    <view wx:for="{{info}}" wx:for-item="item" style="text-align: center;">
+        <!-- {{item.name}}:{{item.score}} -->
+        <text> {{item.name}}:{{item.score}} \n \n</text>
+    </view>
+</view>

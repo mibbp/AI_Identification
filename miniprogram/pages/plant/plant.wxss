@@ -1,0 +1,63 @@
+/**index.wxss**/
+
+h3{
+    margin-top: 40px;
+    margin-left: auto;
+    font-size: 30px;
+    position: absolute;
+  }
+.wave{
+    color: #F0FFFF;
+    animation: wave 3s ease-in-out  infinite;
+}
+.border{
+    color: #BDEDFF;
+
+    text-shadow:
+                -1px -1px 0 white,
+                1px -1px 0 white,
+                -1px 1px 0 white,
+                1px 1px 0 white;
+}
+@keyframes wave{
+    0%,100%{
+        clip-path: polygon(0% 47%,10% 48%,28% 54%,54% 50%,50% 61%,
+                84% 59%,100% 52%,100% 100%,0% 100%);
+    }
+    50%{
+        clip-path: polygon(0% 60%,15% 65%,34% 66%,51% 62%,
+                67% 50%,84% 45%,100% 46%,100% 100%,0% 100%);
+    }
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.btns{
+    width: 300px;
+    float: left;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
+.btn-grad {
+    width: 100px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border-color: snow;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

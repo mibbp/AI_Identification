@@ -1,0 +1,1 @@
+"D:\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-1gp67c7a1c6da6fb --n quickstartFunctions --r --project "D:\uniapp\imageAI" --report_first --report
