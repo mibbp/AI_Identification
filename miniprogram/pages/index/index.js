@@ -14,11 +14,13 @@ Page({
             },
             {
                 id:1,
-                name:"物体识别"
+                name:"物体识别",
+                page:"general"
             },
             {
                 id:.2,
-                name:"人脸识别"
+                name:"人脸识别",
+                page:"face"
             },
             {
                 id:3,
@@ -37,8 +39,8 @@ Page({
     },
     onDis(event){
         let pageID = event.target.dataset.index;
-        console.log(event);
-        console.log(pageID);
+        // console.log(event);
+        // console.log(pageID);
         wx.navigateTo({
             url: `../${pageID}/${pageID}`,
         })

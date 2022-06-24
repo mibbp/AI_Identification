@@ -5,3 +5,7 @@
   align-items: center;
   box-sizing: border-box;
 } 
+image{
+    width: 500px;
+    height: 500px;
+}

@@ -1,0 +1,16 @@
+<!--pages/detail/detail.wxml-->
+<!-- <view>face</view> -->
+<view class="container">
+    <view wx:if="{{imgUrl}}">
+        <image src="{{imgUrl}}" mode="aspectFit"></image>
+        <view  wx:for="{{info}}" wx:for-item="item" wx:key="*this" style="text-align: center;">
+            <!-- {{item.name}}:{{item.score}} -->
+            <text>是否为人脸的概率: {{item.face_probability}}\n</text>
+            <text>颜值评分：{{item.beauty}} \n \n</text>
+        </view>
+        <view wx:if="{{success}}" style="text-align: center;">
+            识别人脸失败
+        </view>
+    </view>
+
+</view>

@@ -19,18 +19,39 @@ Page({
             imgUrl:pic
         })
         //调用云函数
-        wx.cloud.callFunction({
-            name:"baiduAI",
-            data:{
-                fileID:fileID
-            },
-            success:res=>{
-                console.log(res.result.info.result,"baidu")
-                this.setData({
-                    info:res.result.info.result
-                })
-            },
-        })
+        // console.log(options);
+        let kind = options.kind;
+        console.log(kind);
+        if(kind=="plant"){
+            wx.cloud.callFunction({
+                name:"baiduAI",
+                data:{
+                    fileID:fileID
+                },
+                success:res=>{
+                    // console.log(res.result.info.result,"baidu")
+                    this.setData({
+                        info:res.result.info.result
+                    })
+                },
+            })
+        }
+        else if(kind=="general"){
+            console.log("wxgeneral");
+            wx.cloud.callFunction({
+                name:"genereal-AI",
+                data:{
+                    fileID:fileID
+                },
+                success:res=>{
+                    console.log(res.result.info.result,"general")
+                    this.setData({
+                        info:res.result.info.result
+                    })
+                },
+            })
+        }
+        
 
     },
 

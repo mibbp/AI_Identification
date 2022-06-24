@@ -25,8 +25,8 @@ Page({
             success: function (res) {
                 console.log(res);
                 let filePath = res.tempFilePaths[0];
-                let kind = "plant";
-                const cloudPath = `image-flower/${Date.now()}${filePath.match(/\.[^.]+?$/)}`
+                let kind = "face";
+                const cloudPath = `image-face/${Date.now()}${filePath.match(/\.[^.]+?$/)}`
                 console.log(cloudPath);
                 wx.cloud.uploadFile({
                     // 指定上传到的云路径
@@ -37,7 +37,7 @@ Page({
                     success: res => {
                       console.log('上传成功', res)
                       wx.navigateTo({
-                        url: `../detail/detail?pic=${filePath}&&fileID=${res.fileID}&&kind=${kind}`,
+                        url: `../face-detail/face-detail?pic=${filePath}&&fileID=${res.fileID}&&kind=${kind}`,
                       })
                     },
                 })

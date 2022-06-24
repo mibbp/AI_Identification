@@ -2,11 +2,9 @@
 <view class="container">
     <view wx:if="{{imgUrl}}">
         <image src="{{imgUrl}}" mode="aspectFit"></image>
-        <!-- <van-loading /> <van-loading type="spinner" /> -->
-
         <view wx:for="{{info}}" wx:for-item="item" wx:key="*this" style="text-align: center;">
             <!-- {{item.name}}:{{item.score}} -->
-            <text> {{item.name}}:{{item.score}} \n \n</text>
+            <text> {{item.keyword}}:{{item.score}} \n \n</text>
         </view>
     </view>
 
