@@ -1,5 +1,8 @@
 {
     "pages": [
+        "pages/lzx/lzx",
+        "pages/lqr/lqr",
+        "pages/llh/llh",
         "pages/index/index",
         "pages/plant/plant",
         "pages/getOpenId/index",
@@ -17,8 +20,43 @@
         "pages/face/face",
         "pages/general/general",
         "pages/genereal-detail/genereal-detail",
-        "pages/face-detail/face-detail"
+        "pages/face-detail/face-detail",
+        "pages/userInfo/userInfo",
+        "pages/anima/anima",
+        "pages/anima-detail/anima-detail"
     ],
+    "tabBar": {
+        "color": "#a9b7b7",
+        "selectedColor": "#11cd6e",
+        "borderStyle": "white",
+        "list": [
+            {
+                "selectedIconPath": "images/bussiness-man.png",
+                "iconPath": "images/bussiness-man.png",
+                "pagePath": "pages/llh/llh",
+                "text": "刘龙浩"
+            },
+            {
+                "selectedIconPath": "images/bussiness-man.png",
+                "iconPath": "images/bussiness-man.png",
+                "pagePath": "pages/lzx/lzx",
+                "text": "林子轩"
+            },
+            {
+                "selectedIconPath": "images/bussiness-man.png",
+                "iconPath": "images/bussiness-man.png",
+                "pagePath": "pages/lqr/lqr",
+                "text": "罗卿荣"
+            },
+            {
+                "selectedIconPath": "images/图像识别.png",
+                "iconPath": "images/图像识别.png",
+                "pagePath": "pages/index/index",
+                "text": "图像识别"
+            }
+        ],
+        "position": "bottom"
+    },
     "window": {
         "backgroundColor": "#F6F6F6",
         "backgroundTextStyle": "light",

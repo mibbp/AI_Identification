@@ -1,0 +1,4 @@
+<!--pages/login/login.wxml-->
+<!-- <text>pages/login/login.wxml</text> -->
+<!-- <van-button type="primary" opentype="share">主要按钮</van-button> -->
+<!-- <button open-type="getUserInfo" bindgetuserinfo="onLogin">登录</button> -->

@@ -26,7 +26,6 @@ exports.main = async (event, context) => {
     let image = buffer.toString("base64");
 
     const info = await client.plantDetect(image,{baike_num:5})
-
     return {
        info
     }

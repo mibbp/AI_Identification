@@ -1,0 +1,11 @@
+<!--pages/userInfo/userInfo.wxml-->
+<text>pages/userInfo/userInfo.wxml</text>
+<button bindtap="showinfo">show</button>
+<view>
+    <view wx:for="{{info}}" wx:for-item="item" wx:for-index="index" wx:key="*this">
+        <view>{{item}}</view>
+
+    </view>
+    <img src="{{info.avatarUrl}}" alt=""/>
+
+</view>

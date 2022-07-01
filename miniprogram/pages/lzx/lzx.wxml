@@ -1,0 +1,464 @@
+<view class="bg">
+    <view class="title"></view>
+</view>
+<view class="con">
+    <view class="search">
+        <image src="" class="logo"></image>
+
+        <view class="middle">       
+            <image src="../../images/放大镜.png" class="fdj"></image>
+        </view>
+
+        <image src="../../images/cd.png" class="cd"></image>
+    </view>
+
+
+    <swiper style="height:104px ; border-radius:10px; overflow: hidden;" autoplay indicator-dots interval="3000" class="lun">
+    <swiper-item >
+        <image src="https://s2.loli.net/2022/06/30/1wnRjVxL4USyksK.jpg" class="lbimg"></image>
+    </swiper-item>
+
+    <swiper-item >
+        <image src="https://s2.loli.net/2022/06/30/yMR38NCjxUqLSfH.jpg" class="lbimg"></image>
+    </swiper-item>
+
+    <swiper-item >
+        <image src="https://s2.loli.net/2022/06/30/Q4SiGFY5hmMC3fE.jpg" class="lbimg"></image>
+    </swiper-item>
+
+    <swiper-item >
+        <image src="../../images/1242x366_0620-1655711405.jpg" class="lbimg"></image>
+    </swiper-item>
+    </swiper>
+
+    <image class="ad" src="../../images/ad.png"></image>
+
+    <swiper class="type" indicator-dots>
+        <swiper-item>
+            <image src="../../images/tongshubang-1620826800.png" class="tyimg"></image>
+            <image src="../../images/dujia-1620827022.png" class="tyimg"></image>
+            <image src="../../images/jinri-1620827067.png" class="tyimg"></image>
+            <image src="../../images/tongzhuangxie.png" class="tyimg"></image>
+            <image src="../../images/8810.png" class="tyimg"></image>
+            <image src="../../images/jiaofu-1620827008.png" class="tyimg"></image>
+            <image src="../../images/xiaoshuo-1620827043.png" class="tyimg"></image>
+            <image src="../../images/wenxue-1620827088.png" class="tyimg"></image>
+            <image src="../../images/lishi-1620827109.png" class="tyimg"></image>
+            <image src="../../images/shipin-1620826903.png" class="tyimg"></image>
+        </swiper-item>
+
+        <swiper-item>
+            <image src="../../images/tushu-1620826735.png" class="tyimg"></image>
+            <image src="../../images/tongshu-1620826775.png" class="tyimg"></image>
+            <image src="../../images/xinshubang-1620826881.png" class="tyimg"></image>
+            <image src="../../images/dianzishu.png" class="tyimg"></image>
+            <image src="../../images/toutiao.png" class="tyimg"></image>
+            <image src="../../images/fuzhuang-1620826753.png" class="tyimg"></image>
+            <image src="../../images/99.png" class="tyimg"></image>
+            <image src="../../images/ertongjiexin-1623317699.png" class="tyimg"></image>
+            <image src="../../images/2021111720171975184.png" class="tyimg"></image>
+            <image src="../../images/qiandao-1620826984.png" class="tyimg"></image>
+        </swiper-item>
+    
+    </swiper>
+
+    <view class="cx">
+            <view class="cxtop">
+                <view class="topleft">
+                    <view class="cx-tlt">
+                        图书畅销榜
+                    </view>
+                    <image class="cx-tli" src="../../images/haoshu.png"></image>
+                </view>
+
+                <view class="topright">
+                    <view class="cx-tlt">
+                        新书上架
+                    </view>
+
+                    <image class="cx-tli" src="../../images/qiangxian.png"></image>
+                </view>
+            </view>
+
+            <view class="cxbot">
+                <view class="cx01">
+                    <image class="cx01img" src="../../images/tang.jpg"></image>
+                    <image class="no1" src="../../images/1.png"></image>
+                    <view class="cxt">
+                        苏东坡传（林
+                    </view>
+                </view>
+
+                <view class="cx02">
+                    <image class="cx01img" src="../../images/si.jpg"></image>
+                    <image class="no2" src="../../images/2.png"></image>
+                    <view class="cxt">
+                        生死疲劳（不
+                    </view>
+                </view>
+
+                <view class="cx03">
+                    <image class="cx01img" src="../../images/ye.jpg"></image>
+                    <view class="cxt">
+                       想为你的深夜
+                    </view>
+                </view>
+
+                <view class="cx04">
+                    <image class="cx01img" src="../../images/shou.jpg"></image>
+                    <view class="cxt">
+                        手斧男孩系列
+                    </view>
+                </view>
+                </view>
+    </view>
+
+    <view class="qg">
+        <view class="qgtop">
+            <view class="qtl">
+                <view class="qtlt01">
+                    今日抢购
+                </view>     
+
+                <view class="qtlt02">
+                    <view class="time">02</view>
+                    <view class="dot">:</view>
+                    <view class="time">58</view>
+                    <view class="dot">:</view>
+                    <view class="time">00</view>
+                </view>           
+            </view>
+
+            <view class="qtr">
+                <view class="qtrt">
+                    查看更多
+                </view>
+                <image class="qtri" src="../../images/向右箭头.png"></image>
+            </view>
+        </view>
+
+        <view class="qgbot">
+            <view class="qgb01">
+                <image class="qgimg" src="../../images/哪里来.jpg"></image>
+                <view class="qgk">
+                    <view class="qgkt">
+                        ￥1
+                    </view>
+                    <image class="qgki" src="../../images/抢.png"></image>
+                </view>
+                <view class="yj">
+                    ￥100
+                </view>
+            </view>
+
+            <view class="qgb01">
+                <image class="qgimg" src="../../images/吵醒.jpg"></image>
+                <view class="qgk">
+                    <view class="qgkt">
+                        ￥12.8
+                    </view>
+                    <image class="qgki" src="../../images/抢.png"></image>
+                </view>
+                <view class="yj">
+                    ￥46
+                </view>
+            </view>
+
+            <view class="qgb01">
+                <image class="qgimg" src="../../images/训练.jpg"></image>
+                <view class="qgk">
+                    <view class="qgkt">
+                        ￥6.9
+                    </view>
+                    <image class="qgki" src="../../images/抢.png"></image>
+                </view>
+                <view class="yj">
+                    ￥79
+                </view>
+            </view>
+
+            <view class="qgb01">
+                <image class="qgimg" src="../../images/心理学.jpg"></image>
+                <view class="qgk">
+                    <view class="qgkt">
+                        ￥8.7
+                    </view>
+                    <image class="qgki" src="../../images/抢.png"></image>
+                </view>
+                <view class="yj">
+                    ￥53
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="pp">
+        <view class="pptop">
+            <view class="pptx">
+                品牌抢购
+            </view>
+            <image class="ppti" src="../../images/xianshi.png"></image>
+        </view>
+
+        <view class="ppbot">
+            <image src="https://s2.loli.net/2022/06/30/WY8gpzfUJnv9laG.jpg" class="ppi"></image>
+            <image src="https://s2.loli.net/2022/06/30/oj4zbfqCLR8Nl1Y.jpg" class="ppi"></image>
+            <image src="https://s2.loli.net/2022/06/30/S7TyCWowD2s4d9f.jpg" class="ppi"></image>
+            <image src="https://s2.loli.net/2022/06/30/zhi7pmxuKBM9CVP.jpg" class="ppi"></image>
+        </view>
+    </view>
+
+    <view class="tj">
+        <view class="tjbox">
+            <image class="tjimg" src="../../images/三体.jpg"></image>
+            <view class="tjt0">
+            三体；全三册 刘慈欣代表作，亚洲“雨果奖”获奖作
+             </view>
+            <view class="tjmid">
+            <view class="tjt1">
+                自营 
+            </view>
+            <view class="tjt1">
+                包邮 
+            </view>
+            <view class="tjt1">
+                预售 
+            </view>
+            <view class="tjt2">
+                限时抢
+            </view>
+            </view>
+            <view class="tjbot">
+                <view class="tjt3">
+                    ￥51.
+                </view>
+                <view class="tjt4">
+                    10
+                </view>
+                <view class="tjt5">
+                    找相似
+                </view>
+            </view>
+        </view>
+        <view class="tjbox">
+            <image class="tjimg" src="../../images/三体.jpg"></image>
+            <view class="tjt0">
+            三体；全三册 刘慈欣代表作，亚洲“雨果奖”获奖作
+             </view>
+            <view class="tjmid">
+            <view class="tjt1">
+                自营 
+            </view>
+            <view class="tjt1">
+                包邮 
+            </view>
+            <view class="tjt1">
+                预售 
+            </view>
+            <view class="tjt2">
+                限时抢
+            </view>
+            </view>
+            <view class="tjbot">
+                <view class="tjt3">
+                    ￥51.
+                </view>
+                <view class="tjt4">
+                    10
+                </view>
+                <view class="tjt5">
+                    找相似
+                </view>
+            </view>
+        </view>
+        <view class="tjbox">
+            <image class="tjimg" src="../../images/三体.jpg"></image>
+            <view class="tjt0">
+            三体；全三册 刘慈欣代表作，亚洲“雨果奖”获奖作
+             </view>
+            <view class="tjmid">
+            <view class="tjt1">
+                自营 
+            </view>
+            <view class="tjt1">
+                包邮 
+            </view>
+            <view class="tjt1">
+                预售 
+            </view>
+            <view class="tjt2">
+                限时抢
+            </view>
+            </view>
+            <view class="tjbot">
+                <view class="tjt3">
+                    ￥51.
+                </view>
+                <view class="tjt4">
+                    10
+                </view>
+                <view class="tjt5">
+                    找相似
+                </view>
+            </view>
+        </view>
+        <view class="tjbox">
+            <image class="tjimg" src="../../images/三体.jpg"></image>
+            <view class="tjt0">
+            三体；全三册 刘慈欣代表作，亚洲“雨果奖”获奖作
+             </view>
+            <view class="tjmid">
+            <view class="tjt1">
+                自营 
+            </view>
+            <view class="tjt1">
+                包邮 
+            </view>
+            <view class="tjt1">
+                预售 
+            </view>
+            <view class="tjt2">
+                限时抢
+            </view>
+            </view>
+            <view class="tjbot">
+                <view class="tjt3">
+                    ￥51.
+                </view>
+                <view class="tjt4">
+                    10
+                </view>
+                <view class="tjt5">
+                    找相似
+                </view>
+            </view>
+        </view>
+        <view class="tjbox">
+            <image class="tjimg" src="../../images/三体.jpg"></image>
+            <view class="tjt0">
+            三体；全三册 刘慈欣代表作，亚洲“雨果奖”获奖作
+             </view>
+            <view class="tjmid">
+            <view class="tjt1">
+                自营 
+            </view>
+            <view class="tjt1">
+                包邮 
+            </view>
+            <view class="tjt1">
+                预售 
+            </view>
+            <view class="tjt2">
+                限时抢
+            </view>
+            </view>
+            <view class="tjbot">
+                <view class="tjt3">
+                    ￥51.
+                </view>
+                <view class="tjt4">
+                    10
+                </view>
+                <view class="tjt5">
+                    找相似
+                </view>
+            </view>
+        </view>
+        <view class="tjbox">
+            <image class="tjimg" src="../../images/三体.jpg"></image>
+            <view class="tjt0">
+            三体；全三册 刘慈欣代表作，亚洲“雨果奖”获奖作
+             </view>
+            <view class="tjmid">
+            <view class="tjt1">
+                自营 
+            </view>
+            <view class="tjt1">
+                包邮 
+            </view>
+            <view class="tjt1">
+                预售 
+            </view>
+            <view class="tjt2">
+                限时抢
+            </view>
+            </view>
+            <view class="tjbot">
+                <view class="tjt3">
+                    ￥51.
+                </view>
+                <view class="tjt4">
+                    10
+                </view>
+                <view class="tjt5">
+                    找相似
+                </view>
+            </view>
+        </view>
+        <view class="tjbox">
+            <image class="tjimg" src="../../images/三体.jpg"></image>
+            <view class="tjt0">
+            三体；全三册 刘慈欣代表作，亚洲“雨果奖”获奖作
+             </view>
+            <view class="tjmid">
+            <view class="tjt1">
+                自营 
+            </view>
+            <view class="tjt1">
+                包邮 
+            </view>
+            <view class="tjt1">
+                预售 
+            </view>
+            <view class="tjt2">
+                限时抢
+            </view>
+            </view>
+            <view class="tjbot">
+                <view class="tjt3">
+                    ￥51.
+                </view>
+                <view class="tjt4">
+                    10
+                </view>
+                <view class="tjt5">
+                    找相似
+                </view>
+            </view>
+        </view>
+        <view class="tjbox">
+            <image class="tjimg" src="../../images/三体.jpg"></image>
+            <view class="tjt0">
+            三体；全三册 刘慈欣代表作，亚洲“雨果奖”获奖作
+             </view>
+            <view class="tjmid">
+            <view class="tjt1">
+                自营 
+            </view>
+            <view class="tjt1">
+                包邮 
+            </view>
+            <view class="tjt1">
+                预售 
+            </view>
+            <view class="tjt2">
+                限时抢
+            </view>
+            </view>
+            <view class="tjbot">
+                <view class="tjt3">
+                    ￥51.
+                </view>
+                <view class="tjt4">
+                    10
+                </view>
+                <view class="tjt5">
+                    找相似
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+
+         

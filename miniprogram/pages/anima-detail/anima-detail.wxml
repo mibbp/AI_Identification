@@ -1,0 +1,7 @@
+
+<view style="text-align: center;">原图</view>
+ <image src="{{imgUrl}}" mode="aspectFit"></image>
+ <view style="text-align: center;">动漫化</view>
+<view class="container">
+    <image src="{{info}}" alt=""/>
+</view>

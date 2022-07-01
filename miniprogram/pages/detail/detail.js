@@ -9,7 +9,12 @@ Page({
         imgUrl:"",
         info:[]
     },
-
+    zk:function(){
+        var that = this 
+        that.setData({
+          is_zk: !that.data.is_zk
+        })
+      },
     /**
      * 生命周期函数--监听页面加载
      */
@@ -29,7 +34,7 @@ Page({
                     fileID:fileID
                 },
                 success:res=>{
-                    // console.log(res.result.info.result,"baidu")
+                    console.log(res.result.info.result,"baidu")
                     this.setData({
                         info:res.result.info.result
                     })
@@ -38,12 +43,14 @@ Page({
         }
         else if(kind=="general"){
             console.log("wxgeneral");
+            console.log(res);
             wx.cloud.callFunction({
                 name:"genereal-AI",
                 data:{
                     fileID:fileID
                 },
                 success:res=>{
+                    console.log(res);
                     console.log(res.result.info.result,"general")
                     this.setData({
                         info:res.result.info.result

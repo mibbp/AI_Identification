@@ -1,4 +1,5 @@
 // pages/index/index.js
+const app = getApp();
 Page({
 
     /**
@@ -10,30 +11,28 @@ Page({
             {
                 id:0,
                 name:"植物识别",
-                page:"plant"
+                page:"plant",
+                img:"https://s2.loli.net/2022/06/29/wzZ4afyRrhJBgLk.png"
             },
             {
                 id:1,
                 name:"物体识别",
-                page:"general"
+                page:"general",
+                img:"photo-o"
             },
             {
-                id:.2,
-                name:"人脸识别",
-                page:"face"
+                id:2,
+                name:"颜值打分",
+                page:"face",
+                img:"https://s2.loli.net/2022/06/29/DSYOgNxzAnjsRMi.png"
             },
             {
                 id:3,
-                name:"红酒识别"
+                name:"人脸动漫化",
+                page:"anima",
+                img:"https://s2.loli.net/2022/06/29/FUl25t8sZ4ELayz.png"
             },
-            {
-                id:4,
-                name:"二维码识别"
-            },
-            {
-                id:5,
-                name:"车辆识别"
-            }
+
 
         ]
     },
@@ -48,6 +47,25 @@ Page({
     onChange(event) {
     // event.detail 的值为当前选中项的索引
         this.setData({ active: event.detail });
+    },
+    gouserInfo(e){
+        wx.getUserInfo({
+          lang: "zh_CN",
+          success: function(res) {
+            app.globalData.userInfo = res.userInfo;
+            
+            console.log(app.globalData.userInfo,"index") 
+            console.log(app);
+          }
+        })
+        
+
+        wx.navigateTo({
+          url: `../userInfo/userInfo`,
+        })
+    },
+    onUserinfo(e){
+
     },
 
     /**

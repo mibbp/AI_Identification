@@ -5,6 +5,12 @@
         <view wx:for="{{info}}" wx:for-item="item" wx:key="*this" style="text-align: center;">
             <!-- {{item.name}}:{{item.score}} -->
             <text> {{item.keyword}}:{{item.score}} \n \n</text>
+            <view class="wrapp1 {{is_zk?'wrapp2':''}}">
+                {{item.baike_info.description}}
+            <!-- 添加蒙版营造渐变效果 -->
+            <view class="mask" wx:if="{{!is_zk}}"></view>
+            </view>
+            <view class="zk" bindtap='zk'>{{is_zk?'收起':'查看全文'}}</view>
         </view>
     </view>
 

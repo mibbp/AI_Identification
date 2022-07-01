@@ -1,0 +1,139 @@
+<!--index.wxml-->
+
+    <header>
+      <view class='header-wrap'>
+        <view class='content'>
+          <image src='../../images/tt.png' class='taobao_logo'></image>
+          <view class='search'>
+            <image src='../../images/search.png'></image>
+             <text>{{shop}}</text>  
+             <!-- <input type='text' placeholder='寻找宝贝店铺'></input>  -->
+          </view>
+        </view>
+      </view>
+    </header>
+    
+
+    <!-- //轮播图 -->
+    <view class='bd'>
+      <swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interVal}}' duration='{{duration}}'>
+        <block wx:for='{{background}}'>
+          <swiper-item>
+            <image src='{{item}}'></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+    <!--分类  -->
+    <view class='list_box'>
+      <view class='list1'>
+        <view class='list_item'>
+          <navigator url='../tmall/tmall'>
+            <image src='../../images/tmall.png'></image>
+            <text>天猫</text>
+          </navigator>
+        </view>
+        <view class='list_item'>
+          <navigator url='../juhuasuan/juhuasuan'>
+            <image src='../../images/juhuasuan.png'></image>
+            <text>聚划算</text>
+          </navigator> 
+        </view>
+        <view class='list_item'>
+          <image src='../../images/jinkou.png'></image>
+          <text>天猫国际</text>
+        </view>
+        <view class='list_item'> 
+          <image src='../../images/waimai.png'></image>
+          <text>外卖</text>
+        </view>
+        <view class='list_item'> 
+          <image src='../../images/chaoshi.png'></image>
+          <text>天猫超市</text>
+        </view>
+      </view>
+      <view class='list2'>
+        <view class='list_item'> 
+          <image src='../../images/chonzhi.png'></image>
+          <text>充值中心</text>
+        </view>
+        <view class='list_item'>
+          <image src='../../images/jipiao.png'></image>
+          <text>飞猪旅行</text>
+        </view>
+        <view class='list_item'> 
+          <image src='../../images/tao.png'></image>
+          <text>领金币</text>
+        </view>
+        <view class='list_item'> 
+          <image src='../../images/paimai.png'></image>
+          <text>拍卖</text>
+        </view>
+        <view class='list_item'> 
+          <image src='../../images/fenlei.png'></image>
+          <text>分类</text>
+        </view>
+      </view>
+    </view>
+
+    <!--分割线  -->
+    <view class='toutiao'>
+      <image src='../../images/toutiao.png'/>
+    <text class='xingzuo'>星座</text>
+    <a href="#">
+      <text class='toutiao_right'>这些星座就喜欢偷偷摸摸</text>
+    </a> 
+    </view>
+
+    <!-- 抢购 -->
+    <view class='qianggou'>
+    <!--左边淘购  -->
+        <view class='left flex2 background_common'></view>
+    <!--右边淘购  -->
+        <view class='flex3'>
+          <view class='right_top flex_height_p50'>
+            <view class='top_left_photo background_common' style=''></view>
+            <view class='top_right_photo background_common'></view>
+          </view>
+          <view class='flex_height_p50'>
+            <view class='bottom_left_photo background_common'></view>
+            <view class='bottom_right_photo background_common'></view>
+          </view>
+        </view>
+    </view>
+    <!-- 超实惠 -->
+    <view class='shihui_box'>
+      <view class='shihui'>
+        <image src='../../images/shihui.png'></image>
+        <text>超实惠</text>
+      </view>
+      <!-- 超实惠内容 -->
+      <view class='shihui_content'>
+        <view class='shihui_left'>
+          <view class='shihui_left_top background_common'></view>
+          <view class='shihui_left_bottom background_common'></view>
+        </view>
+        <view class='shihui_right'>
+          <view class='shihui_right_top'>
+            <view class='top_item1 t_b_items'></view>
+            <view class='top_item2 t_b_items'></view>
+            <view class='top_item3 t_b_items'></view>
+          </view>
+          <view class='shihui_right_bottom'>
+            <view class='bottom_item1 t_b_items'></view>
+            <view class='bottom_item2 t_b_items'></view>
+            <view class='bottom_item3 t_b_items'></view>
+          </view>
+        </view>
+      </view>
+
+    </view>
+    <!--  更多服务  -->
+    <view class='more_fuwu'>
+       <image src='../../images/chi.png'></image> 
+       <a href='#'><text>更多服务></text></a>
+    </view>
+    <!-- 创意新品 -->
+    <view class='chuangyi background_common'></view>
+

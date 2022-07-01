@@ -1,0 +1,94 @@
+<!-- 背景图 -->
+<view class="fa">
+<image class="beijing" src="../../images/背景图1.jpeg"></image>
+</view>
+<!-- 店名 -->
+<view class="fa1">
+<view class="son1">
+<image class="huawei" src="../../images/华为图标.png"></image>
+</view>
+<view class="son2">
+<view class="son21 ">华为京东自营官方旗舰店 ></view>
+<view class="son22">自营</view>
+</view>
+<view class="son3">
+<view class="son31">收藏</view>
+<view class="son32">6400万人收藏</view>
+</view>
+<view class="son4">...</view>
+</view>
+<!-- 搜索 -->
+<view class="fa2">
+<view class="son5">
+<image class="son51" src="../../images/搜索.png"></image>
+</view>
+</view>
+<view class="fa3">
+<view>精选 买家秀 商品 活动 </view>
+</view>
+<!-- 新用户广告 -->
+<view class="fa4">
+<view class="son6">
+<view class="son61">NEW</view>
+<view class="son62">本店新用户</view>
+</view>
+<view class="son7">丨</view>
+<view class="son8">
+<view class="son81">积分特权</view>
+</view>
+<view class="son9">成为会员最高享1.3倍积分</view>
+</view>
+<!-- 主要产品介绍 -->
+<scroll-view class="fa5" scroll-y>
+<view class="son10">
+<view class="demo1">
+<view>
+<image class="demo11" src="../../images/手机.png"></image></view>
+<view class="demo12">手机</view>
+</view>
+<view class="demo2">
+<view>
+<image class="demo21" src="../../images/电脑 (1).png"></image></view>
+<view class="demo22">电脑</view>
+</view>
+<view class="demo3">
+<view>
+<image class="demo31" src="../../images/耳机音响.png"></image></view>
+<view class="demo32">耳机</view>
+</view>
+</view>
+<view class="son11">
+<view class="demo4">
+<view>
+<image class="demo41" src="../../images/路由器 (1).png"></image></view>
+<view class="demo42">路由器</view>
+</view>
+<view class="demo5">
+<view>
+<image class="demo51" src="../../images/配件.png"></image></view>
+<view class="demo52">配件</view>
+</view>
+<view class="demo6">
+<view>
+<image class="demo61" src="../../images/平板.png"></image></view>
+<view class="demo62">平板</view>
+</view>
+</view>
+<!-- nova10介绍 -->
+<view class="son12">主角登场 全场瞩目</view>
+<image class="son13" src="https://s2.loli.net/2022/06/30/HVUjOtfRTFI95M8.png"></image>
+<view class="son14">
+<view class="demo8">nova10系列</view>
+<view class="demo9">主角影像</view>
+<view class="demo10">付定优惠50丨享用6期免息</view>
+<view class="sson14">nova10)立即预定
+</view>
+<view class="ssson14">nova10pro)立即预定
+</view>
+</view>
+</scroll-view>
+
+
+<!-- <navigator url="/pages/goods/goods" open-type="switchTab">
+  <view class="son15">图片识别</view>
+</navigator> -->

@@ -1,0 +1,232 @@
+/**index.wxss**/
+/* 公共样式 */
+.flex3{flex:3}
+.flex2{flex: 2}
+.flex_height_p50{height: 50%;display: flex;}
+.background_common{
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* 导航栏 */
+header{
+  background: #FE5400; 
+  width: 100%;
+  font-size: 30rpx;
+}
+.header-wrap{
+  color: #FFFFFF;
+  padding:12rpx;
+}
+.content{
+  display: flex;
+  width: 100%;
+}
+.taobao_logo{
+  display: inline-block;
+  width: 63rpx; 
+  height: 48rpx;
+}
+.header-wrap .search{
+  background: #B52600;
+  height: 48rpx;
+  line-height: 48rpx;
+  flex: 1;
+  border-radius: 12rpx;
+  text-align: center;
+   margin-left: 10rpx; 
+}
+
+.search image{
+  width: 30rpx;
+  height: 28rpx;
+  display: inline-block;
+}
+.bd image{
+  width: 100%;
+   height: 100%; 
+}
+/* 分类 */
+.list_box{
+  color: rgb(102,102,102);
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+ .list1,.list2{display: flex;width: 100%;} 
+.list1 .list_item,.list2 .list_item{
+  flex:1;
+  padding-top:25rpx;
+  text-align: center;
+}
+.list1 image,.list2 image{
+  height: 85rpx;
+  width: 120rpx;
+}
+/*  头条css  */
+.toutiao{
+  margin-top: 30rpx;
+  font-size: 30rpx;
+  border-top: 1rpx rgb(244,244,244) solid;
+  padding:10rpx 20rpx 10rpx 20rpx;
+}
+.toutiao image{
+  width: 137rpx;
+  height: 40rpx; 
+  margin-left: 5rpx;
+}
+.xingzuo{
+  border:2rpx solid rgb(216, 20, 33);
+  border-radius: 8rpx;
+  color: rgb(216, 20, 33);
+  margin-left:55rpx;
+}
+.toutiao .toutiao_right{
+  color: rgb(88,88,88);
+  padding-left: 20rpx;
+  font-size: 36rpx;
+}
+/* 淘抢购 */
+.qianggou{
+  height: 402rpx;
+  display: flex;
+  border-top: 12rpx solid rgb(238,238,238);
+  border-bottom: 12rpx solid rgb(238,238,238);
+}
+/* 淘抢购左 */
+.qianggou .left{
+  border-right: 1rpx solid rgb(251,251,251);
+  background-image: url(https://gw.alicdn.com/tps/i2/TB1nQXGJVXXXXcEXXXXKKOh2VXX-432-567.jpg_q50.jpg?imgtag=avatar);
+}
+/* 淘抢购右 */
+.qianggou .right_top{
+  border-bottom: 1rpx solid rgb(251,251,251);
+}
+.top_left_photo{
+  flex: 345;
+  background-image: url(https://img.alicdn.com/tps/TB19RaGLpXXXXcDXpXXXXXXXXXX-333-261.jpg_q50.jpg?imgtag=avatar);
+  background-position: 50% 50%;
+  border-right: 1rpx solid rgb(251,251,251);
+}
+.top_right_photo{
+  flex: 348;
+  background-position: 50% 50%;
+  background-image: url(https://gw.alicdn.com/imgextra/i4/128/TB2bCmVfeGSBuNjSspbXXciipXa_!!128-0-luban.jpg_q50.jpg);
+ }  
+.bottom_left_photo{
+  flex: 345;
+  background-image: url(https://gw.alicdn.com/tps/TB1MzfaLpXXXXaXXXXXXXXXXXXX-345-306.jpg_q50.jpg);
+  border-right: 1rpx solid rgb(251,251,251);
+}
+.bottom_right_photo{
+  flex: 348;
+  background-image: url(https://img.alicdn.com/imgextra/i3/27/TB21MzojFXXXXXbXpXXXXXXXXXX_!!27-2-subaru.png);
+}
+/*实惠样式  */
+.shihui_box{
+  box-sizing: border-box;
+  color: rgb(255, 53, 14);
+  padding-top: 10rpx;
+}
+.shihui{
+  height: 60rpx;
+  text-align: center;
+  display: flex;
+}
+.shihui image{
+  margin-top: 10rpx; 
+  display: inline-block; 
+  height: 40rpx;
+  width: 40rpx;
+}
+.shihui text{
+  display: inline-block;
+  /* height: 60rpx; */
+  /* flex: 1; */
+  line-height: 60rpx;
+  font-size: 36rpx;
+}
+/*天猫必逛  */
+.shihui_content{
+   box-sizing: border-box; 
+  height: 468rpx;
+  margin-top: 10rpx;
+  display: flex;
+  border-top: 1rpx solid rgb(251,251,251);
+   border-bottom: 12rpx solid rgb(238,238,238); 
+}
+.shihui_left{
+  flex:2;
+  border-right: 1rpx solid rgb(251,251,251);
+}
+.shihui_left_top{
+  height: 50%;
+  background-image: url(https://gw.alicdn.com/tps/TB1u_5AKVXXXXaGXFXXXXXXXXXX-432-330.jpg_q50.jpg);
+}
+.shihui_left_bottom{
+  height: 50%;
+  background-image: url(https://gw.alicdn.com/tps/i2/TB1MCr4LpXXXXaUXXXXcahN2VXX-432-330.png);
+}
+/* 实惠右 */
+.shihui_right{
+  flex: 3;
+  /* box-sizing: border-box; */
+}
+.shihui_right_top{
+  height: 50%;
+  box-sizing: border-box;
+  border-bottom:  1rpx solid rgb(251,251,251);
+  display: flex;
+}
+.shihui_right_bottom{
+  box-sizing: border-box;
+  height: 50%;
+  display: flex;
+  background: blue;
+  border-bottom:  1rpx solid rgb(251,251,251);
+}
+/* 超实惠右边样式 */
+.t_b_items{flex: 1;background-size: contain;border-left: 1rpx solid rgb(251,251,251);}
+.top_item1{
+  background-image: url(https://img.alicdn.com/tps/TB1ElUEJVXXXXbfXFXXXXXXXXXX-225-354.png);
+}
+.top_item2{
+  background-image: url(https://gw.alicdn.com/tps/i3/TB17m7FLpXXXXXZXpXXKWJi7pXX-231-330.png);
+}
+.top_item3{
+  background-image: url(https://gw.alicdn.com/tps/i1/TB1rWBkJFXXXXXXXpXX7Wdi7pXX-231-330.jpg_q50.jpg);
+}
+.bottom_item1{
+  background-image: url(https://img.alicdn.com/bao/uploaded/TB1AdvmNFXXXXXwXFXXSutbFXXX.jpg_q50.jpg);
+}
+.bottom_item2{
+  background-image: url(https://img.alicdn.com/imgextra/i2/2670830951/TB25NlYaWm5V1BjSsziXXaZMpXa_!!2670830951.jpg_q50.jpg);
+}
+.bottom_item3{
+  background-image: url(https://img.alicdn.com/imgextra/i3/54/TB228tVjNdkpuFjy0FbXXaNnpXa_!!2-subaru.png);
+}
+/* 更多服务 */
+.more_fuwu{
+  box-sizing: border-box;
+  height: 60rpx;
+  display: flex;
+  /* background: pink; */
+}
+.more_fuwu image{
+  display: inline-block;
+  height: 60rpx;
+  width: 267rpx;
+}
+.more_fuwu text{
+  flex: 1;
+  display: inline-block;
+  color: rgb(145,145,145);
+  font-size: 30rpx;
+  line-height: 60rpx;  
+   padding-left: 340rpx; 
+   font-weight: bold;
+}
+/* 创意 */
+.chuangyi{
+  background-image: url(https://gw.alicdn.com/tps/TB1CPtJMXXXXXcAXFXXXXXXXXXX-1125-225.png);
+  width: 100%;
+  height:150rpx;
+}

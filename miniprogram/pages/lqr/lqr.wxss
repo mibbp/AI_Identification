@@ -1,0 +1,395 @@
+/* pages/lqr/lqr.wxss */.beijing{
+  position: absolute;
+  height: 200px;
+  width: 100%;
+ z-index: -1;
+}
+.fa1{
+  position: relative;
+  width:  100%;
+  height: 49px;
+  padding-top: 21px;
+  display: flex;
+}
+.son1{
+
+width: 50px;
+height: 50px;
+background-color: #ffffff;
+border-radius: 5px;
+margin-left: 10px;
+}
+.huawei{
+
+  width: 50px;
+  height: 50px;
+}
+.son2{
+  width: 193px;
+  height: 49px;
+  /* background-color: pink; */
+  padding-left: 10px;
+}
+.son21{
+  font-size: 16px;
+  color: rgb(255,255,255);
+}
+.son22{
+  margin-top: 10px;
+  width: 24px;
+  height: 14px;
+  background-color: red;
+  color: rgb(255,255,255);
+  font-size: 10px;
+  border-radius: 2px;
+  text-align: center;
+}
+.son3{
+  position: absolute;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+}
+.son31{
+  width: 50px;
+  height: 25px;
+  font-size: 16px;
+  text-align: center;
+  color:#ffffff;
+border-radius: 5px;
+  background-color: rgb(233, 59, 61);
+}
+.son32{
+  font-size: 7px;
+  color: #ffffff;
+}
+.son4{
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  color: #ffffff;
+  width: 20px;
+  height: 50px;
+}
+.fa2{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  /* background-color: pink; */
+}
+.son5{
+  position: absolute;
+  width: 102px;
+  height: 30px;
+  background-color: #797373c0;
+  left: 10px;
+  top: 10px;
+  border-radius: 15px;
+}
+.son51{
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.fa3{
+  width: 100%;
+  height: 30px;
+  margin-left: 120px;
+  margin-top: 15px;
+  display: flex;
+  color: #eeeaea;
+  word-spacing: 10px;
+}
+.fa4{
+  position: absolute;
+  left: 10px;
+  width: 345px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding-right: 10px;
+}
+.son6{ 
+  position: absolute;
+  width: 60px;
+  height: 50px;
+}
+.son61{
+ position: absolute;
+ left: 15px;
+ top: 10px;
+  width: 30px;
+  height: 20px;
+  background-color: red;
+  font-size: 12px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.son62{
+  position: absolute;
+  left: 5px;
+  top: 30px;
+   width: 50px;
+   height: 20px;
+   font-size: 10px;
+   color: #030303;
+   border-radius: 5px;
+ }
+ .son7{
+  position: absolute;
+  left: 50px;
+  top: -5px;
+  font-size: 40px;
+  color: #bdb2b2;
+   width: 2px; 
+ }
+ .son8{
+  position: absolute;
+  left: 80px;
+  top: 15px;
+   width: 50px;
+   height: 15px;
+   background-color: rgb(228, 63, 13);
+   color: #ffffff;
+   font-size: 10px;
+   text-align: center;
+   border-top-left-radius: 10px ;
+   border-bottom-left-radius: 10px ;
+   border-bottom-right-radius: 10px ;
+ }
+ .son9{
+  position: absolute;
+  left: 130px;
+  top: 13px;
+  font-size: 12px;
+ }
+
+ .fa5{
+   padding-top: 50px;
+   padding-left: 10px;
+   width: 100%;
+   height: 750px;
+   background-color: rgb(189, 181, 182);
+ }
+ .son10{
+   display: flex;
+   /* position: absolute; */
+   width: 355px;
+   height: 115px;
+   background-color: rgb(248, 245, 245);
+   border-top-left-radius: 10px ;
+   border-top-right-radius: 10px ;
+ }
+ .demo1{
+   margin-top: 10px;
+   margin-left: 13px;
+   width: 100px;
+   height: 100px;
+   background-color: rgba(255, 255,255);
+   border-radius: 20px;
+   text-align: center;
+
+ }
+ .demo2{
+  margin-top: 10px;
+  margin-left: 13px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255,255);
+  border-radius: 20px;
+  text-align: center;
+}
+.demo3{
+  margin-top: 10px;
+  margin-left: 13px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255,255);
+  border-radius: 20px;
+}
+.demo11{
+  margin: auto;
+  margin-top: 0px;
+  width: 70px;
+  height: 70px;
+}
+
+.demo12{
+  width: 40px;
+  height: 20px;
+  margin: auto;
+}
+.demo21{
+  margin: auto;
+  margin-top: 0px;
+  width: 70px;
+  height: 70px;
+}
+
+.demo22{
+  width: 40px;
+  height: 20px;
+  margin: auto;
+}
+.demo31{
+  margin-left: 15px;
+  margin-top: 0px;
+  width: 70px;
+  height: 70px;
+}
+
+.demo32{
+  width: 40px;
+  height: 20px;
+  margin: auto;
+}
+
+.son11{
+  display: flex;
+  /* position: absolute; */
+  width: 355px;
+  height: 120px;
+  background-color: rgb(252, 248, 248);
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px ;
+}
+.demo4{
+  margin-top: 10px;
+  margin-left: 13px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255,255);
+  border-radius: 20px;
+  text-align: center;
+
+}
+.demo5{
+ margin-top: 10px;
+ margin-left: 13px;
+ width: 100px;
+ height: 100px;
+ background-color: rgba(255, 255,255);
+ border-radius: 20px;
+ text-align: center;
+}
+.demo6{
+ margin-top: 10px;
+ margin-left: 13px;
+ width: 100px;
+ height: 100px;
+ background-color: rgba(255, 255,255);
+ border-radius: 20px;
+}
+.demo41{
+ margin: auto;
+ margin-top: 0px;
+ width: 70px;
+ height: 70px;
+}
+
+.demo42{
+ width: 40px;
+ height: 20px;
+ margin: auto;
+ font-size: 12px;
+}
+.demo51{
+ margin: auto;
+ margin-top: 0px;
+ width: 70px;
+ height: 70px;
+}
+
+.demo52{
+ width: 40px;
+ height: 20px;
+ margin: auto;
+}
+.demo61{
+ margin-left: 15px;
+ margin-top: 0px;
+ width: 70px;
+ height: 70px;
+}
+
+.demo62{
+ width: 40px;
+ height: 20px;
+ margin: auto;
+}
+.son12{
+  margin-top: 5px;
+  width: 355px;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 35px;
+  text-align: center;
+  line-height: 120px;
+  color: #000000;
+}
+
+.son13{
+  width: 355px;
+  height: 240px;
+}
+
+.son14{
+  margin-top: -5px;
+  width: 335px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  padding-left: 20px;
+  padding-top: 20px ;
+}
+.sson14{
+  width: 120px;
+  height: 30px;
+  margin-top: -60px ;
+  margin-left: 200px ;
+  background-color: rgb(252, 244, 244);
+  border-radius: 20px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  color:#111111;
+  border: 2px solid #000000;
+}
+.ssson14{
+  width: 120px;
+  height: 30px;
+  margin-top: 10px ;
+  margin-left: 200px ;
+  background-color: rgb(252, 249, 249);
+  border-radius: 20px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  color:rgb(8, 8, 8);
+  border: 2px solid #000000;
+}
+
+.son15{
+  position: fixed;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: #fdfdfd;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px;
+  border: 2px solid #000000;
+}

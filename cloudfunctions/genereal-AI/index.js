@@ -27,6 +27,7 @@ exports.main = async (event, context) => {
 
     // const info = await client.plantDetect(image,{baike_num:5})
     const info = await client.advancedGeneral(image,{baike_num:5});
+    console.log(info,"aaa")
     return {
        info
     }
